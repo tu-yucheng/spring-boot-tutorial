@@ -1,0 +1,37 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "tu-yucheng",
+      "name": "Tuyucheng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88582540?v=4s=100",
+      "profile": "https://github.com/tu-yucheng",
+      "contributions": [
+        "projectManagement",
+        "maintenance",
+        "content"
+      ]
+    },
+    {
+      "login": "take-today",
+      "name": "TakeToday",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116951809?v=4s=100",
+      "profile": "https://github.com/take-today",
+      "contributions": [
+        "code",
+        "review",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "spring-boot-tutorial",
+  "projectOwner": "tu-yucheng",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

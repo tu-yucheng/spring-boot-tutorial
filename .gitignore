@@ -1,0 +1,88 @@
+*/bin/*
+bin/
+
+*.class
+
+*banner.txt
+*README-backup.md
+/.fleet/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.settings/
+*.project
+*.classpath
+.prefs
+*.prefs
+.metadata/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+out/
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Maven
+log/*
+target/
+
+# Gradle
+.gradle/
+
+.recommenders/
+
+spring-all/*.log
+
+SpringDataInjectionDemo/.mvn/wrapper/maven-wrapper.properties
+
+spring-call-getters-using-reflection/.mvn/wrapper/maven-wrapper.properties
+
+spring-check-if-a-property-is-null/.mvn/wrapper/maven-wrapper.properties
+*.springBeans
+
+20171220-JMeter.csv
+
+.factorypath
+dependency-reduced-pom.xml
+*.so
+*.dylib
+*.dll
+
+ninja/devDb.mv.db
+
+**/node_modules/
+**/dist
+**/tmp
+**/out-tsc
+**/nbproject/
+**/nb-configuration.xml
+
+/report-*.json
+transaction.log
+*-shell.log
+customers.xml
+
+logs/
+
+spring-hibernate-5/com.*
+spring-boot-react/frontend/build
+spring-boot-react/frontend/node
+spring-boot-react/frontend/yarn.lock
+spring-boot-properties-3/*.log
+spring-boot-properties-3/*.gz
+
+# SDKMan
+.sdkmanrc
+
+# Localstack
+**/.localstack
