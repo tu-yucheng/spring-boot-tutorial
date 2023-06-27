@@ -50,7 +50,7 @@
    </dependencies>
 
    <properties>
-      <spring.batch.version>5.0.0</spring.batch.version>
+      <spring.batch.version>5.0.2</spring.batch.version>
       <awaitility.version>4.2.0</awaitility.version>
       <start-class>cn.tuyucheng.taketoday.batch.SpringBootBatchProcessingApplication</start-class>
    </properties>
