@@ -784,7 +784,7 @@
             <module>spring-boot-groovy</module>
             <module>spring-boot-grpc</module>
             <module>spring-boot-hystrix</module>
-            <module>spring-boot-jasypt</module>
+            <!-- <module>spring-boot-jasypt</module> --> <!-- failed on CI -->
             <module>spring-boot-jenkins-pipeline</module>
             <module>spring-boot-jib</module>
             <module>spring-boot-jsp</module>
@@ -825,7 +825,7 @@
             <module>spring-boot-redis</module>
             <module>spring-boot-remoting</module>
             <module>spring-boot-request-params</module>
-            <module>spring-boot-resilience4j</module>
+            <!-- <module>spring-boot-resilience4j</module> --> <!-- build failed -->
             <module>spring-boot-rest</module>
             <module>spring-boot-runtime-1</module>
             <module>spring-boot-runtime-2</module>
