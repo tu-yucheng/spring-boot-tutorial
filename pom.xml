@@ -427,27 +427,21 @@
             <module>spring-boot-disable-logging</module>
             <module>spring-boot-discord4j</module>
             <module>spring-boot-documentation</module>
-            <module>spring-boot-drools</module>
             <module>spring-boot-dubbo</module>
-            <module>spring-boot-ejb</module>
             <module>spring-boot-environment</module>
             <module>spring-boot-exceptions</module>
             <module>spring-boot-feign</module>
             <module>spring-boot-flowable</module>
-            <module>spring-boot-gcp-firebase</module>
             <module>spring-boot-gradle-1</module>
             <module>spring-boot-gradle-2</module>
             <module>spring-boot-graphql</module>
             <module>spring-boot-groovy</module>
             <module>spring-boot-grpc</module>
-            <module>spring-boot-hystrix</module>
             <module>spring-boot-jasypt</module>
-            <module>spring-boot-jenkins-pipeline</module>
             <module>spring-boot-jib</module>
             <module>spring-boot-jsp</module>
             <module>spring-boot-kafka-1</module>
             <module>spring-boot-kafka-2</module>
-            <module>spring-boot-katharsis</module>
             <module>spring-boot-keycloak-1</module>
             <module>spring-boot-keycloak-2</module>
             <module>spring-boot-keycloak-adapters</module>
@@ -456,9 +450,6 @@
             <module>spring-boot-lightrun</module>
             <module>spring-boot-logging-log4j2</module>
             <module>spring-boot-logging-logback</module>
-            <module>spring-boot-mantis</module>
-            <module>spring-boot-mesos-marathon</module>
-            <module>spring-boot-metrics</module>
             <module>spring-boot-miscellaneous</module>
             <module>spring-boot-mobile</module>
             <module>spring-boot-mustache</module>
@@ -486,10 +477,7 @@
             <module>spring-boot-rest</module>
             <module>spring-boot-runtime-1</module>
             <module>spring-boot-runtime-2</module>
-            <module>spring-boot-scheduling</module>
             <module>spring-boot-security</module>
-            <module>spring-boot-sendgrid</module>
-            <module>spring-boot-shell</module>
             <module>spring-boot-soap</module>
             <module>spring-boot-springdoc-1</module>
             <module>spring-boot-springdoc-2</module>
@@ -608,27 +596,21 @@
             <module>spring-boot-disable-logging</module>
             <module>spring-boot-discord4j</module>
             <module>spring-boot-documentation</module>
-            <module>spring-boot-drools</module>
             <module>spring-boot-dubbo</module>
-            <module>spring-boot-ejb</module>
             <module>spring-boot-environment</module>
             <module>spring-boot-exceptions</module>
             <module>spring-boot-feign</module>
             <module>spring-boot-flowable</module>
-            <module>spring-boot-gcp-firebase</module>
             <module>spring-boot-gradle-1</module>
             <module>spring-boot-gradle-2</module>
             <module>spring-boot-graphql</module>
             <module>spring-boot-groovy</module>
             <module>spring-boot-grpc</module>
-            <module>spring-boot-hystrix</module>
             <module>spring-boot-jasypt</module>
-            <module>spring-boot-jenkins-pipeline</module>
             <module>spring-boot-jib</module>
             <module>spring-boot-jsp</module>
             <module>spring-boot-kafka-1</module>
             <module>spring-boot-kafka-2</module>
-            <module>spring-boot-katharsis</module>
             <module>spring-boot-keycloak-1</module>
             <module>spring-boot-keycloak-2</module>
             <module>spring-boot-keycloak-adapters</module>
@@ -637,9 +619,6 @@
             <module>spring-boot-lightrun</module>
             <module>spring-boot-logging-log4j2</module>
             <module>spring-boot-logging-logback</module>
-            <module>spring-boot-mantis</module>
-            <module>spring-boot-mesos-marathon</module>
-            <module>spring-boot-metrics</module>
             <module>spring-boot-miscellaneous</module>
             <module>spring-boot-mobile</module>
             <module>spring-boot-mustache</module>
@@ -667,10 +646,7 @@
             <module>spring-boot-rest</module>
             <module>spring-boot-runtime-1</module>
             <module>spring-boot-runtime-2</module>
-            <module>spring-boot-scheduling</module>
             <module>spring-boot-security</module>
-            <module>spring-boot-sendgrid</module>
-            <module>spring-boot-shell</module>
             <module>spring-boot-soap</module>
             <module>spring-boot-springdoc-1</module>
             <module>spring-boot-springdoc-2</module>
@@ -770,27 +746,21 @@
             <module>spring-boot-disable-logging</module>
             <module>spring-boot-discord4j</module>
             <module>spring-boot-documentation</module>
-            <module>spring-boot-drools</module>
             <module>spring-boot-dubbo</module>
-            <module>spring-boot-ejb</module>
             <module>spring-boot-environment</module>
             <module>spring-boot-exceptions</module>
             <module>spring-boot-feign</module>
             <module>spring-boot-flowable</module>
-            <module>spring-boot-gcp-firebase</module>
             <module>spring-boot-gradle-1</module>
             <module>spring-boot-gradle-2</module>
             <module>spring-boot-graphql</module>
             <module>spring-boot-groovy</module>
             <module>spring-boot-grpc</module>
-            <module>spring-boot-hystrix</module>
             <!-- <module>spring-boot-jasypt</module> --> <!-- failed on CI -->
-            <module>spring-boot-jenkins-pipeline</module>
             <module>spring-boot-jib</module>
             <module>spring-boot-jsp</module>
             <module>spring-boot-kafka-1</module>
             <!-- <module>spring-boot-kafka-2</module> --> <!-- build failed -->
-            <module>spring-boot-katharsis</module>
             <module>spring-boot-keycloak-1</module>
             <module>spring-boot-keycloak-2</module>
             <module>spring-boot-keycloak-adapters</module>
@@ -799,9 +769,6 @@
             <module>spring-boot-lightrun</module>
             <module>spring-boot-logging-log4j2</module>
             <module>spring-boot-logging-logback</module>
-            <module>spring-boot-mantis</module>
-            <module>spring-boot-mesos-marathon</module>
-            <module>spring-boot-metrics</module>
             <module>spring-boot-miscellaneous</module>
             <module>spring-boot-mobile</module>
             <module>spring-boot-mustache</module>
@@ -829,10 +796,7 @@
             <module>spring-boot-rest</module>
             <module>spring-boot-runtime-1</module>
             <module>spring-boot-runtime-2</module>
-            <module>spring-boot-scheduling</module>
             <module>spring-boot-security</module>
-            <module>spring-boot-sendgrid</module>
-            <module>spring-boot-shell</module>
             <module>spring-boot-soap</module>
             <module>spring-boot-springdoc-1</module>
             <module>spring-boot-springdoc-2</module>
