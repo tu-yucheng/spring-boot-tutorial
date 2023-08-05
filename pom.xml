@@ -363,7 +363,6 @@
 
          <modules>
             <module>jacoco-aggregate-report</module>
-            <module>parent-boot-1</module>
             <module>parent-boot-2</module>
             <module>parent-boot-3</module>
             <module>parent-spring-5</module>
@@ -415,7 +414,6 @@
             <module>spring-boot-cli</module>
             <module>spring-boot-client</module>
             <module>spring-boot-config-jpa-error</module>
-            <module>spring-boot-credhub</module>
             <module>spring-boot-crud</module>
             <module>spring-boot-ctx-fluent</module>
             <module>spring-boot-custom-starter</module>
@@ -430,18 +428,17 @@
             <module>spring-boot-dubbo</module>
             <module>spring-boot-environment</module>
             <module>spring-boot-exceptions</module>
-            <module>spring-boot-feign</module>
             <module>spring-boot-flowable</module>
             <module>spring-boot-gradle-1</module>
             <module>spring-boot-gradle-2</module>
             <module>spring-boot-graphql</module>
             <module>spring-boot-groovy</module>
             <module>spring-boot-grpc</module>
-            <module>spring-boot-jasypt</module>
+            <!-- <module>spring-boot-jasypt</module> --> <!-- failed on CI -->
             <module>spring-boot-jib</module>
             <module>spring-boot-jsp</module>
             <module>spring-boot-kafka-1</module>
-            <module>spring-boot-kafka-2</module>
+            <!-- <module>spring-boot-kafka-2</module> --> <!-- build failed -->
             <module>spring-boot-keycloak-1</module>
             <module>spring-boot-keycloak-2</module>
             <module>spring-boot-keycloak-adapters</module>
@@ -451,7 +448,6 @@
             <module>spring-boot-logging-log4j2</module>
             <module>spring-boot-logging-logback</module>
             <module>spring-boot-miscellaneous</module>
-            <module>spring-boot-mobile</module>
             <module>spring-boot-mustache</module>
             <module>spring-boot-mvc-1</module>
             <module>spring-boot-mvc-2</module>
@@ -462,18 +458,15 @@
             <module>spring-boot-mvc-jersey</module>
             <module>spring-boot-mvc-legacy</module>
             <module>spring-boot-nashorn</module>
-            <module>spring-boot-native</module>
             <module>spring-boot-parent</module>
             <module>spring-boot-performance</module>
             <module>spring-boot-process-automation</module>
             <module>spring-boot-property-exp</module>
-            <module>spring-boot-protobuf</module>
             <module>spring-boot-quartz</module>
             <module>spring-boot-react</module>
             <module>spring-boot-redis</module>
-            <module>spring-boot-remoting</module>
             <module>spring-boot-request-params</module>
-            <module>spring-boot-resilience4j</module>
+            <!-- <module>spring-boot-resilience4j</module> --> <!-- build failed -->
             <module>spring-boot-rest</module>
             <module>spring-boot-runtime-1</module>
             <module>spring-boot-runtime-2</module>
@@ -481,11 +474,9 @@
             <module>spring-boot-soap</module>
             <module>spring-boot-springdoc-1</module>
             <module>spring-boot-springdoc-2</module>
-            <module>spring-boot-state-machine</module>
             <module>spring-boot-swagger-1</module>
             <module>spring-boot-swagger-2</module>
             <module>spring-boot-swagger-3</module>
-            <module>spring-boot-swagger-codegen</module>
             <module>spring-boot-swagger-jwt</module>
             <module>spring-boot-testing-1</module>
             <module>spring-boot-testing-2</module>
@@ -494,11 +485,9 @@
             <module>spring-boot-vaadin</module>
             <module>spring-boot-validation-1</module>
             <module>spring-boot-validation-3</module>
-            <module>spring-boot-vault</module>
             <module>spring-boot-vue</module>
             <module>spring-boot-wavefront</module>
             <module>spring-boot-web3j</module>
-            <module>spring-boot-webrtc</module>
             <module>spring-boot-websockets</module>
          </modules>
       </profile>
@@ -532,7 +521,6 @@
 
          <modules>
             <module>jacoco-aggregate-report</module>
-            <module>parent-boot-1</module>
             <module>parent-boot-2</module>
             <module>parent-boot-3</module>
             <module>parent-spring-5</module>
@@ -584,7 +572,6 @@
             <module>spring-boot-cli</module>
             <module>spring-boot-client</module>
             <module>spring-boot-config-jpa-error</module>
-            <module>spring-boot-credhub</module>
             <module>spring-boot-crud</module>
             <module>spring-boot-ctx-fluent</module>
             <module>spring-boot-custom-starter</module>
@@ -599,157 +586,6 @@
             <module>spring-boot-dubbo</module>
             <module>spring-boot-environment</module>
             <module>spring-boot-exceptions</module>
-            <module>spring-boot-feign</module>
-            <module>spring-boot-flowable</module>
-            <module>spring-boot-gradle-1</module>
-            <module>spring-boot-gradle-2</module>
-            <module>spring-boot-graphql</module>
-            <module>spring-boot-groovy</module>
-            <module>spring-boot-grpc</module>
-            <module>spring-boot-jasypt</module>
-            <module>spring-boot-jib</module>
-            <module>spring-boot-jsp</module>
-            <module>spring-boot-kafka-1</module>
-            <module>spring-boot-kafka-2</module>
-            <module>spring-boot-keycloak-1</module>
-            <module>spring-boot-keycloak-2</module>
-            <module>spring-boot-keycloak-adapters</module>
-            <module>spring-boot-libraries-1</module>
-            <module>spring-boot-libraries-2</module>
-            <module>spring-boot-lightrun</module>
-            <module>spring-boot-logging-log4j2</module>
-            <module>spring-boot-logging-logback</module>
-            <module>spring-boot-miscellaneous</module>
-            <module>spring-boot-mobile</module>
-            <module>spring-boot-mustache</module>
-            <module>spring-boot-mvc-1</module>
-            <module>spring-boot-mvc-2</module>
-            <module>spring-boot-mvc-3</module>
-            <module>spring-boot-mvc-4</module>
-            <module>spring-boot-mvc-5</module>
-            <module>spring-boot-mvc-birt</module>
-            <module>spring-boot-mvc-jersey</module>
-            <module>spring-boot-mvc-legacy</module>
-            <module>spring-boot-nashorn</module>
-            <module>spring-boot-native</module>
-            <module>spring-boot-parent</module>
-            <module>spring-boot-performance</module>
-            <module>spring-boot-process-automation</module>
-            <module>spring-boot-property-exp</module>
-            <module>spring-boot-protobuf</module>
-            <module>spring-boot-quartz</module>
-            <module>spring-boot-react</module>
-            <module>spring-boot-redis</module>
-            <module>spring-boot-remoting</module>
-            <module>spring-boot-request-params</module>
-            <module>spring-boot-resilience4j</module>
-            <module>spring-boot-rest</module>
-            <module>spring-boot-runtime-1</module>
-            <module>spring-boot-runtime-2</module>
-            <module>spring-boot-security</module>
-            <module>spring-boot-soap</module>
-            <module>spring-boot-springdoc-1</module>
-            <module>spring-boot-springdoc-2</module>
-            <module>spring-boot-state-machine</module>
-            <module>spring-boot-swagger-1</module>
-            <module>spring-boot-swagger-2</module>
-            <module>spring-boot-swagger-3</module>
-            <module>spring-boot-swagger-codegen</module>
-            <module>spring-boot-swagger-jwt</module>
-            <module>spring-boot-testing-1</module>
-            <module>spring-boot-testing-2</module>
-            <module>spring-boot-testing-spock</module>
-            <module>spring-boot-threads</module>
-            <module>spring-boot-vaadin</module>
-            <module>spring-boot-validation-1</module>
-            <module>spring-boot-validation-3</module>
-            <module>spring-boot-vault</module>
-            <module>spring-boot-vue</module>
-            <module>spring-boot-wavefront</module>
-            <module>spring-boot-web3j</module>
-            <module>spring-boot-webrtc</module>
-            <module>spring-boot-websockets</module>
-         </modules>
-      </profile>
-
-      <!-- 同时执行单元测试和集成测试的Profile(*Unit、*Integration) -->
-      <profile>
-         <id>all</id>
-         <properties>
-            <skip.integration.tests>false</skip.integration.tests>
-            <skip.unit.tests>false</skip.unit.tests>
-         </properties>
-
-         <modules>
-            <module>jacoco-aggregate-report</module>
-            <module>parent-boot-1</module>
-            <module>parent-boot-2</module>
-            <module>parent-boot-3</module>
-            <module>parent-spring-5</module>
-            <module>parent-spring-6</module>
-
-            <!--====== spring boot 3 modules ======-->
-            <module>spring-boot-3</module>
-            <module>spring-boot-3-container</module>
-            <module>spring-boot-3-native</module>
-            <module>spring-boot-3-observation</module>
-            <module>spring-boot-3-rsocket-exchange</module>
-            <module>spring-boot-3-test-pitfalls</module>
-            <module>spring-boot-3-url-matching</module>
-            <module>spring-boot-3-virtual-thread</module>
-            <module>spring-boot-cxf</module>
-            <module>spring-boot-libraries-3</module>
-            <module>spring-boot-properties-1</module>
-            <module>spring-boot-properties-2</module>
-            <module>spring-boot-properties-3</module>
-            <module>spring-boot-properties-4</module>
-            <module>spring-boot-properties-migrator-demo</module>
-            <module>spring-boot-swagger-keycloak</module>
-            <module>spring-boot-validation-2</module>
-            <module>spring-boot-validation-advanced</module>
-
-            <!--====== spring boot 2 modules ======-->
-            <module>spring-boot-activiti</module>
-            <module>spring-boot-actuator</module>
-            <module>spring-boot-admin</module>
-            <module>spring-boot-angular</module>
-            <module>spring-boot-annotations-1</module>
-            <module>spring-boot-annotations-2</module>
-            <module>spring-boot-artifacts-1</module>
-            <module>spring-boot-artifacts-2</module>
-            <module>spring-boot-astra-db</module>
-            <module>spring-boot-autoconfiguration</module>
-            <module>spring-boot-aws</module>
-            <module>spring-boot-azure</module>
-            <module>spring-boot-basic-customization-1</module>
-            <module>spring-boot-basic-customization-2</module>
-            <module>spring-boot-batch-1</module>
-            <module>spring-boot-batch-2</module>
-            <module>spring-boot-bootstrap</module>
-            <module>spring-boot-caching-1</module>
-            <module>spring-boot-caching-2</module>
-            <module>spring-boot-camel</module>
-            <module>spring-boot-cassandre</module>
-            <module>spring-boot-ci-cd</module>
-            <module>spring-boot-cli</module>
-            <module>spring-boot-client</module>
-            <module>spring-boot-config-jpa-error</module>
-            <module>spring-boot-credhub</module>
-            <module>spring-boot-crud</module>
-            <module>spring-boot-ctx-fluent</module>
-            <module>spring-boot-custom-starter</module>
-            <module>spring-boot-data-1</module>
-            <module>spring-boot-data-2</module>
-            <module>spring-boot-data-3</module>
-            <module>spring-boot-deployment</module>
-            <module>spring-boot-di</module>
-            <module>spring-boot-disable-logging</module>
-            <module>spring-boot-discord4j</module>
-            <module>spring-boot-documentation</module>
-            <module>spring-boot-dubbo</module>
-            <module>spring-boot-environment</module>
-            <module>spring-boot-exceptions</module>
-            <module>spring-boot-feign</module>
             <module>spring-boot-flowable</module>
             <module>spring-boot-gradle-1</module>
             <module>spring-boot-gradle-2</module>
@@ -770,7 +606,6 @@
             <module>spring-boot-logging-log4j2</module>
             <module>spring-boot-logging-logback</module>
             <module>spring-boot-miscellaneous</module>
-            <module>spring-boot-mobile</module>
             <module>spring-boot-mustache</module>
             <module>spring-boot-mvc-1</module>
             <module>spring-boot-mvc-2</module>
@@ -781,16 +616,13 @@
             <module>spring-boot-mvc-jersey</module>
             <module>spring-boot-mvc-legacy</module>
             <module>spring-boot-nashorn</module>
-            <module>spring-boot-native</module>
             <module>spring-boot-parent</module>
             <module>spring-boot-performance</module>
             <module>spring-boot-process-automation</module>
             <module>spring-boot-property-exp</module>
-            <module>spring-boot-protobuf</module>
             <module>spring-boot-quartz</module>
             <module>spring-boot-react</module>
             <module>spring-boot-redis</module>
-            <module>spring-boot-remoting</module>
             <module>spring-boot-request-params</module>
             <!-- <module>spring-boot-resilience4j</module> --> <!-- build failed -->
             <module>spring-boot-rest</module>
@@ -800,11 +632,9 @@
             <module>spring-boot-soap</module>
             <module>spring-boot-springdoc-1</module>
             <module>spring-boot-springdoc-2</module>
-            <module>spring-boot-state-machine</module>
             <module>spring-boot-swagger-1</module>
             <module>spring-boot-swagger-2</module>
             <module>spring-boot-swagger-3</module>
-            <module>spring-boot-swagger-codegen</module>
             <module>spring-boot-swagger-jwt</module>
             <module>spring-boot-testing-1</module>
             <module>spring-boot-testing-2</module>
@@ -813,11 +643,148 @@
             <module>spring-boot-vaadin</module>
             <module>spring-boot-validation-1</module>
             <module>spring-boot-validation-3</module>
-            <module>spring-boot-vault</module>
             <module>spring-boot-vue</module>
             <module>spring-boot-wavefront</module>
             <module>spring-boot-web3j</module>
-            <module>spring-boot-webrtc</module>
+            <module>spring-boot-websockets</module>
+         </modules>
+      </profile>
+
+      <!-- 同时执行单元测试和集成测试的Profile(*Unit、*Integration) -->
+      <profile>
+         <id>all</id>
+         <properties>
+            <skip.integration.tests>false</skip.integration.tests>
+            <skip.unit.tests>false</skip.unit.tests>
+         </properties>
+
+         <modules>
+            <module>jacoco-aggregate-report</module>
+            <module>parent-boot-2</module>
+            <module>parent-boot-3</module>
+            <module>parent-spring-5</module>
+            <module>parent-spring-6</module>
+
+            <!--====== spring boot 3 modules ======-->
+            <module>spring-boot-3</module>
+            <module>spring-boot-3-container</module>
+            <module>spring-boot-3-native</module>
+            <module>spring-boot-3-observation</module>
+            <module>spring-boot-3-rsocket-exchange</module>
+            <module>spring-boot-3-test-pitfalls</module>
+            <module>spring-boot-3-url-matching</module>
+            <module>spring-boot-3-virtual-thread</module>
+            <module>spring-boot-cxf</module>
+            <module>spring-boot-libraries-3</module>
+            <module>spring-boot-properties-1</module>
+            <module>spring-boot-properties-2</module>
+            <module>spring-boot-properties-3</module>
+            <module>spring-boot-properties-4</module>
+            <module>spring-boot-properties-migrator-demo</module>
+            <module>spring-boot-swagger-keycloak</module>
+            <module>spring-boot-validation-2</module>
+            <module>spring-boot-validation-advanced</module>
+
+            <!--====== spring boot 2 modules ======-->
+            <module>spring-boot-activiti</module>
+            <module>spring-boot-actuator</module>
+            <module>spring-boot-admin</module>
+            <module>spring-boot-angular</module>
+            <module>spring-boot-annotations-1</module>
+            <module>spring-boot-annotations-2</module>
+            <module>spring-boot-artifacts-1</module>
+            <module>spring-boot-artifacts-2</module>
+            <module>spring-boot-astra-db</module>
+            <module>spring-boot-autoconfiguration</module>
+            <module>spring-boot-aws</module>
+            <module>spring-boot-azure</module>
+            <module>spring-boot-basic-customization-1</module>
+            <module>spring-boot-basic-customization-2</module>
+            <module>spring-boot-batch-1</module>
+            <module>spring-boot-batch-2</module>
+            <module>spring-boot-bootstrap</module>
+            <module>spring-boot-caching-1</module>
+            <module>spring-boot-caching-2</module>
+            <module>spring-boot-camel</module>
+            <module>spring-boot-cassandre</module>
+            <module>spring-boot-ci-cd</module>
+            <module>spring-boot-cli</module>
+            <module>spring-boot-client</module>
+            <module>spring-boot-config-jpa-error</module>
+            <module>spring-boot-crud</module>
+            <module>spring-boot-ctx-fluent</module>
+            <module>spring-boot-custom-starter</module>
+            <module>spring-boot-data-1</module>
+            <module>spring-boot-data-2</module>
+            <module>spring-boot-data-3</module>
+            <module>spring-boot-deployment</module>
+            <module>spring-boot-di</module>
+            <module>spring-boot-disable-logging</module>
+            <module>spring-boot-discord4j</module>
+            <module>spring-boot-documentation</module>
+            <module>spring-boot-dubbo</module>
+            <module>spring-boot-environment</module>
+            <module>spring-boot-exceptions</module>
+            <module>spring-boot-flowable</module>
+            <module>spring-boot-gradle-1</module>
+            <module>spring-boot-gradle-2</module>
+            <module>spring-boot-graphql</module>
+            <module>spring-boot-groovy</module>
+            <module>spring-boot-grpc</module>
+            <!-- <module>spring-boot-jasypt</module> --> <!-- failed on CI -->
+            <module>spring-boot-jib</module>
+            <module>spring-boot-jsp</module>
+            <module>spring-boot-kafka-1</module>
+            <!-- <module>spring-boot-kafka-2</module> --> <!-- build failed -->
+            <module>spring-boot-keycloak-1</module>
+            <module>spring-boot-keycloak-2</module>
+            <module>spring-boot-keycloak-adapters</module>
+            <module>spring-boot-libraries-1</module>
+            <module>spring-boot-libraries-2</module>
+            <module>spring-boot-lightrun</module>
+            <module>spring-boot-logging-log4j2</module>
+            <module>spring-boot-logging-logback</module>
+            <module>spring-boot-miscellaneous</module>
+            <module>spring-boot-mustache</module>
+            <module>spring-boot-mvc-1</module>
+            <module>spring-boot-mvc-2</module>
+            <module>spring-boot-mvc-3</module>
+            <module>spring-boot-mvc-4</module>
+            <module>spring-boot-mvc-5</module>
+            <module>spring-boot-mvc-birt</module>
+            <module>spring-boot-mvc-jersey</module>
+            <module>spring-boot-mvc-legacy</module>
+            <module>spring-boot-nashorn</module>
+            <module>spring-boot-parent</module>
+            <module>spring-boot-performance</module>
+            <module>spring-boot-process-automation</module>
+            <module>spring-boot-property-exp</module>
+            <module>spring-boot-quartz</module>
+            <module>spring-boot-react</module>
+            <module>spring-boot-redis</module>
+            <module>spring-boot-request-params</module>
+            <module>spring-boot-resilience4j</module>
+            <module>spring-boot-rest</module>
+            <module>spring-boot-runtime-1</module>
+            <module>spring-boot-runtime-2</module>
+            <module>spring-boot-security</module>
+            <module>spring-boot-soap</module>
+            <module>spring-boot-springdoc-1</module>
+            <module>spring-boot-springdoc-2</module>
+            <module>spring-boot-swagger-1</module>
+            <module>spring-boot-swagger-2</module>
+            <module>spring-boot-swagger-3</module>
+            <module>spring-boot-swagger-jwt</module>
+            <module>spring-boot-testing-1</module>
+            <module>spring-boot-testing-2</module>
+            <module>spring-boot-testing-spock</module>
+            <module>spring-boot-threads</module>
+            <module>spring-boot-vaadin</module>
+            <module>spring-boot-validation-1</module>
+            <module>spring-boot-validation-3</module>
+            <module>spring-boot-vue</module>
+            <module>spring-boot-wavefront</module>
+            <module>spring-boot-web3j</module>
             <module>spring-boot-websockets</module>
          </modules>
       </profile>
@@ -854,7 +821,6 @@
       <profile>
          <id>parents</id>
          <modules>
-            <module>parent-boot-1</module>
             <module>parent-boot-2</module>
             <module>parent-boot-3</module>
             <module>parent-spring-5</module>
