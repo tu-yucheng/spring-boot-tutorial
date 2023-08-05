@@ -462,6 +462,7 @@
             <module>spring-boot-performance</module>
             <module>spring-boot-process-automation</module>
             <module>spring-boot-property-exp</module>
+            <module>spring-boot-pulsar</module>
             <module>spring-boot-quartz</module>
             <module>spring-boot-react</module>
             <module>spring-boot-redis</module>
@@ -620,6 +621,7 @@
             <module>spring-boot-performance</module>
             <module>spring-boot-process-automation</module>
             <module>spring-boot-property-exp</module>
+            <module>spring-boot-pulsar</module>
             <module>spring-boot-quartz</module>
             <module>spring-boot-react</module>
             <module>spring-boot-redis</module>
@@ -759,6 +761,7 @@
             <module>spring-boot-performance</module>
             <module>spring-boot-process-automation</module>
             <module>spring-boot-property-exp</module>
+            <module>spring-boot-pulsar</module>
             <module>spring-boot-quartz</module>
             <module>spring-boot-react</module>
             <module>spring-boot-redis</module>
