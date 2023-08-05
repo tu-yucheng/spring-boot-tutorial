@@ -231,7 +231,7 @@
       <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
       <maven-resources-plugin.version>3.3.0</maven-resources-plugin.version>
 
-      <spring-boot.version>3.1.0</spring-boot.version>
+      <spring-boot.version>3.1.2</spring-boot.version>
       <native-build-tools-plugin.version>0.9.17</native-build-tools-plugin.version>
       <java.version>17</java.version>
       <maven.compiler.source>${java.version}</maven.compiler.source>
